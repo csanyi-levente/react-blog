@@ -21,7 +21,7 @@ export default () => {
                         <input value={title} onChange={e => setTitle(e.target.value)}
                         type="text" className="form-control"/>
                     </div>
-                    <button type="button" name="button" className="btn btn-primary">Submit</button>
+                    <button type="submit" name="button" className="btn btn-primary">Submit</button>
                 </form>
             </div>
 };
